@@ -844,6 +844,11 @@ td.doc-name {
   .logo .img {
     height: 34px;
   }
+
+  .nav-call {
+    display: none;
+  }
+
   .nav-call {
     padding: 11px 14px;
   }
