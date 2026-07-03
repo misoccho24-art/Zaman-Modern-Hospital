@@ -146,6 +146,8 @@ h1, h2, h3 {
   border-radius: 100px;
   white-space: nowrap;
   transition: background 0.2s ease, transform 0.2s ease;
+  margin-right: 120px;
+  width: 175px;
 }
 
 .nav-call:hover {
@@ -185,6 +187,7 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-left: 120px;
 }
 
 /* Sidebar / mobile drawer */
@@ -840,9 +843,6 @@ td.doc-name {
   }
   .logo .img {
     height: 34px;
-  }
-  .nav-call span {
-    display: none;
   }
   .nav-call {
     padding: 11px 14px;
