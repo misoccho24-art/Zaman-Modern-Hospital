@@ -447,7 +447,6 @@ h1, h2, h3 {
   padding: 0 0 24px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -970,4 +969,42 @@ td.doc-name {
   border-radius: 100px;
   background-color: white;
   padding: 7px;
+}
+
+.button-number,.button-number1, .button-number2,.button-number3,.button-number4,.button-number5,.button-number6,.button-number7 {
+  border: none;
+  color: white;
+  font-family: arial;
+  border-radius: 18px;
+  padding: 5px;
+  width: 300px;
+  margin-top: 15px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.button-number {
+ background-color: #1F5FA8;
+}
+
+.button-number1 {
+  background-color: #C24236;
+}
+.button-number2 {
+  background-color: #1E8E5A;
+}
+.button-number3 {
+  background-color: #7A56B8;
+}
+.button-number4 {
+  background-color: #C15A82;
+}
+.button-number5 {
+  background-color: #A8791E;
+}
+.button-number6 {
+  background-color: #2E7096;
+}
+.button-number7 {
+  background-color: #1E8E8E;
 }
