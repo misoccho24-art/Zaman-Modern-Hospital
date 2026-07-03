@@ -865,3 +865,109 @@ td.doc-name {
     margin-top: -34px;
   }
 }
+
+/* =========================================================
+   24/7 BABY DELIVERY BANNER
+   ========================================================= */
+
+.delivery-banner {
+  background: linear-gradient(120deg, var(--dep-gyn), #9c3f68);
+  margin-top: -6px;
+  position: relative;
+  z-index: 2;
+}
+
+.delivery-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 26px 24px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.delivery-icon {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 100px;
+}
+
+.delivery-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.delivery-tag {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.delivery-text h2 {
+  color: var(--white);
+  font-family: "Noto Serif Bengali", var(--font-display);
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.delivery-text p {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Noto Sans Bengali", var(--font-body);
+  font-size: 14.5px;
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+.delivery-cta {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  color: #9c3f68;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 22px;
+  border-radius: 100px;
+  white-space: nowrap;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease;
+}
+
+.delivery-cta:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 720px) {
+  .delivery-inner {
+    flex-wrap: wrap;
+    padding: 22px 20px;
+  }
+  .delivery-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+  .delivery-cta {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+.bedi-div {
+  border-radius: 100px;
+  background-color: white;
+  padding: 7px;
+}
